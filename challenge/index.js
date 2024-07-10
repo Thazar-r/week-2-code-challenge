@@ -1,11 +1,13 @@
 // Array to store shopping list items
 let shoppingItems = [];
 
+
 // DOM elements
 const itemInput = document.getElementById('itemInput');
 const addItemBtn = document.getElementById('addItemBtn');
 const clearListBtn = document.getElementById('clearListBtn');
 const shoppingList = document.getElementById('shoppingList');
+
 
 // Function to add item to the list
 function addItem() {
@@ -17,11 +19,13 @@ function addItem() {
     }
 }
 
+
 // Function to clear the list
 function clearList() {
     shoppingItems = [];
     renderList();
 }
+
 
 // Function to render the list
 function renderList() {
