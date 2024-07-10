@@ -27,3 +27,32 @@ li {
     text-decoration: line-through;
     color: #fae1e1;
 }
+
+
+#app {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#itemInput {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    flex: 1;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #88b98a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #39703c;
+}
